@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+    <entity name="App\Entity\Candidato" table="candidato">
+        <id name="id" type="string" length="36" />
+
+        <field name="name" />
+        <field name="lastName" />
+        <field name="email" />
+        <field name="status" />
+    </entity>
+</doctrine-mapping>

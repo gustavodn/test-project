@@ -1,0 +1,19 @@
+App\Entity\Candidato:
+  Candidato-0:
+    __construct:
+      name: Candidato1
+      lastName: Candidato1_lastName
+      email: candidato_1@mail.com
+      status: Apto
+  Candidato-1:
+    __construct:
+      name: Candidato2
+      lastName: Candidato2_lastName
+      email: canditado_2@mail.com
+      status: Apto
+  Candidato-2:
+    __construct:
+      name: Candidato3
+      lastName: Candidato3_lastName
+      email: candidato_3@mail.com
+      status: Apto

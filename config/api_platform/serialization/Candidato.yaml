@@ -1,0 +1,12 @@
+App\Entity\Candidato:
+  attributes:
+    id:
+      groups: [read]
+    name:
+      groups: [read]
+    last_name:
+      groups: [read]
+    email:
+      groups: [read]
+    status:
+      groups: [read]

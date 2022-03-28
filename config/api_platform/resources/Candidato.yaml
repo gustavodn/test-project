@@ -1,0 +1,17 @@
+App\Entity\Candidato:
+  attributes:
+    normalization_context:
+      groups: [ read ]
+  collectionOperations:
+    get:
+      normalization_context:
+        groups: [ read ]
+  itemOperations:
+    get: ~
+    contratar:
+      method: POST
+      path: /candidatos/{id}/contratar
+      controller: App\Api\Action\Candidato\Contratar
+      read: false
+      normalization_context:
+        groups: [ read ]
